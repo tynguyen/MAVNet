@@ -1,11 +1,12 @@
 
 <p align="center">
- MAVNet: an Effective Semantic Segmentation Micro-Network forMAV-based Tasks
+ MAVNet: an Effective Semantic Segmentation Micro-Network for MAV-based Tasks
 </p>
-
 <p align="center">
   Ty Nguyen et al. University of Pennsylvania
 </p>
+
+![Network Architecture](aux/drone_show.png)
 
 ##### Source: https://arxiv.org/submit/2714868/view
 ##### Cite: 
