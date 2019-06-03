@@ -1,9 +1,9 @@
 
 <p align="center">
- <b>MAVNet: an Effective Semantic Segmentation Micro-Network for MAV-based Tasks</b><br>
+ <b> MAVNet: an Effective Semantic Segmentation Micro-Network for MAV-based Tasks</b> 
 </p>
 <p align="center">
- <i> Ty Nguyen, Shreyas S. Shivakumar, Ian D. Miller, James Keller, Elijah S. Lee1, Alex Zhou, Tolga ̈Ozaslan, Giuseppe Loianno, Joseph H. Harwood, Jennifer Wozencraft, Camillo J. Taylor, Vijay Kumar <i>
+ <i> Ty Nguyen, Shreyas S. Shivakumar, Ian D. Miller, James Keller, Elijah S. Lee1, Alex Zhou, Tolga ̈Ozaslan<br> Giuseppe Loianno, Joseph H. Harwood, Jennifer Wozencraft, Camillo J. Taylor, Vijay Kumar <i>
 </p>
 
 <p align="center"> 
@@ -30,7 +30,7 @@
 <img src="aux/drone_image_plus_label.png" alt="drawing" width="480" align="middle">
  </p>
 <p align="center"> 
-   <i>A sample image from the drone dataset. 
+   <i>A sample image from the drone dataset<br>
     From left to right: input image,  labeled image. White: drone, gray: background</i> 
 </p>
 
@@ -39,7 +39,7 @@
 <img src="aux/penstock_image_plus_label.png" alt="drawing" width="480" align="middle">
  </p>
 <p align="center"> 
-   <i>A sample image from the penstock dataset. 
+   <i>A sample image from the penstock dataset.<br>
     Pink: corrosion, light blue: background, dark blue: rivet, green: water, gray: ignore</i> 
 </p>
 
@@ -99,7 +99,7 @@ There are multiple datasets that can be used to train and evaluate. By default, 
 Corresponding to this dataset is the dataloader with the same name in HOMEDIR/code/dataloaders/. 
 
 
-###### 
+---
 # 2. Test
 The following test procedure is for penstock dataset. We use DATALOADER="perch_drone" in code/scripts/set_dir.sh
 
@@ -160,7 +160,7 @@ bash scripts/run_test_on_gt.sh <name_of_other_models>
 They are stored at HOMEDIR/final_reports/<net_type>_<net_version>_<loss_type>_results.csv
 
 
-######
+---
 # 3. Dataset
 ## Penstock dataset
 * Train & Test datasets are taken from two sequences. Look at HOMEDIR/code/penstock_dataPreparation/gen_files_list.py 
@@ -186,7 +186,8 @@ python gen_files_list.py
 ``` 
 * This function will modify the segmentation images to make it 1 channel with indices indicating objects, according to label_perch_drone_list in HOMEDIR/code/configurations.py 
  
-######
+ 
+---
 # 4. Train 
 ## 4.1 Set environment variables of location to the code, data, log, results ...
 (On every new terminal) Run set_dir.sh to set the variables regarding repositories to the code, meta data (log, results, models)   
