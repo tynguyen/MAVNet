@@ -1,12 +1,17 @@
 
 <p align="center">
- MAVNet: an Effective Semantic Segmentation Micro-Network for MAV-based Tasks
+ <b>MAVNet: an Effective Semantic Segmentation Micro-Network for MAV-based Tasks</b><br>
 </p>
 <p align="center">
-  Ty Nguyen et al. University of Pennsylvania
+ <i> Ty Nguyen, Shreyas S. Shivakumar, Ian D. Miller, James Keller, Elijah S. Lee1, Alex Zhou, Tolga ̈Ozaslan, Giuseppe Loianno, Joseph H. Harwood, Jennifer Wozencraft, Camillo J. Taylor, Vijay Kumar <i>
 </p>
 
-![Network Architecture](aux/drone_show.png)
+<p align="center"> 
+<img src="aux/drone_show.png" alt="drawing" width="480" align="middle">
+ </p>
+<p align="center"> 
+   <i>MAV used to collect data and test network models</i> 
+</p>
 
 ##### Source: https://arxiv.org/submit/2714868/view
 ##### Cite: 
@@ -19,10 +24,30 @@
 }
 ```
 
+# Datasets
+### MAV Segmentation Dataset
+<p align="center"> 
+<img src="aux/drone_image_plus_label.png" alt="drawing" width="480" align="middle">
+ </p>
+<p align="center"> 
+   <i>A sample image from the drone dataset. 
+    From left to right: input image,  labeled image. White: drone, gray: background</i> 
+</p>
 
+### Penstock Dataset
+<p align="center"> 
+<img src="aux/penstock_image_plus_label.png" alt="drawing" width="480" align="middle">
+ </p>
+<p align="center"> 
+   <i>A sample image from the penstock dataset. 
+    Pink: corrosion, light blue: background, dark blue: rivet, green: water, gray: ignore</i> 
+</p>
 
-###### 
-# 1 Before start
+___
+# Instructions 
+
+___
+# 1. Before start
 ## Copy the whole repository to your desirable place 
 ```
 git clone https://github.com/tynguyen/MAVNet.git ~/github_MAVNet/MAVNet
