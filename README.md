@@ -1,3 +1,25 @@
+
+<p align="center">
+ MAVNet: an Effective Semantic Segmentation Micro-Network forMAV-based Tasks
+</p>
+
+<p align="center">
+  Ty Nguyen et al. University of Pennsylvania
+</p>
+
+##### Source: https://arxiv.org/submit/2714868/view
+##### Cite: 
+```
+@article{nguyen2019mavnet,
+  title={MAVNet: an Effective Semantic Segmentation Micro-Network for MAV-based Tasks},
+  author={Nguyen, Ty and Ozaslan, Tolga and Miller, Ian D and Keller, James and Shivakumar, Shreyas and Loianno, Giuseppe and Taylor, Camillo J and Kumar, Vijay and Harwood, Joseph H and Wozencraft, Jennifer},
+  journal={arXiv preprint arXiv:1904.01795},
+  year={2019}
+}
+```
+
+
+
 ###### 
 # 1 Before start
 ## Copy the whole repository to your desirable place 
